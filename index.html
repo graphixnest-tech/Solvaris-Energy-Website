@@ -85,71 +85,17 @@
         </div>
       </div>
       <div class="hero-art">
-<svg viewBox="0 0 620 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of a Solvaris system: sun to solar panel to hybrid inverter, distributing to battery, home and EV charger">
-  <defs>
-    <marker id="dotcap" markerWidth="4" markerHeight="4"><circle cx="2" cy="2" r="2" fill="#E0B45C"/></marker>
-  </defs>
-  <!-- connecting lines -->
-  <path id="lineA" d="M180 90 L180 190" stroke="rgba(232,236,228,0.28)" stroke-width="1.3" stroke-dasharray="3 5" fill="none"/>
-  <path id="lineB" d="M180 190 L180 270" stroke="rgba(232,236,228,0.28)" stroke-width="1.3" stroke-dasharray="3 5" fill="none"/>
-  <path id="lineC" d="M180 270 L180 340" stroke="rgba(232,236,228,0.28)" stroke-width="1.3" stroke-dasharray="3 5" fill="none"/>
-  <path id="lineD" d="M225 300 L400 210" stroke="rgba(232,236,228,0.28)" stroke-width="1.3" stroke-dasharray="3 5" fill="none"/>
-  <path id="lineE" d="M225 320 L400 370" stroke="rgba(232,236,228,0.28)" stroke-width="1.3" stroke-dasharray="3 5" fill="none"/>
-  <path id="lineF" d="M225 340 L400 470" stroke="rgba(232,236,228,0.28)" stroke-width="1.3" stroke-dasharray="3 5" fill="none"/>
-
-  <!-- flow dots -->
-  <circle class="flow-dot" r="3.4" fill="#E0B45C" style="offset-path:path('M180 90 L180 340');"/>
-  <circle class="flow-dot d2" r="3.4" fill="#E0B45C" style="offset-path:path('M225 300 L400 210');"/>
-  <circle class="flow-dot d3" r="3.4" fill="#E0B45C" style="offset-path:path('M225 320 L400 370');"/>
-  <circle class="flow-dot d4" r="3.4" fill="#E0B45C" style="offset-path:path('M225 340 L400 470');"/>
-
-  <!-- sun -->
-  <g transform="translate(180,50)">
-    <circle r="26" fill="none" stroke="#E0B45C" stroke-width="1.4"/>
-    <circle r="10" fill="none" stroke="#E0B45C" stroke-width="1.4"/>
-    <g stroke="#E0B45C" stroke-width="1.4" stroke-linecap="round">
-      <line x1="0" y1="-18" x2="0" y2="-24"/><line x1="0" y1="18" x2="0" y2="24"/>
-      <line x1="-18" y1="0" x2="-24" y2="0"/><line x1="18" y1="0" x2="24" y2="0"/>
-    </g>
-    <text x="42" y="5" fill="#A9B6AC" font-size="12" font-family="Work Sans, sans-serif">Sunlight</text>
-  </g>
-
-  <!-- panel -->
-  <g transform="translate(180,190)">
-    <rect x="-38" y="-24" width="76" height="48" fill="none" stroke="#E8ECE4" stroke-width="1.4" rx="2"/>
-    <path d="M-38 -8H38M-38 8H38M-13 -24V24M13 -24V24" stroke="#E8ECE4" stroke-width="0.9"/>
-    <text x="52" y="5" fill="#A9B6AC" font-size="12" font-family="Work Sans, sans-serif">Solar array</text>
-  </g>
-
-  <!-- hybrid inverter (hub) -->
-  <g transform="translate(180,310)">
-    <rect x="-32" y="-32" width="64" height="64" fill="#0F2A27" stroke="#E0B45C" stroke-width="1.6" rx="3"/>
-    <path d="M-18 4C-13 4 -13 -10 -8 -10C-3 -10 -3 16 2 16C7 16 7 4 12 4H20" stroke="#E0B45C" stroke-width="1.4" stroke-linecap="round" fill="none"/>
-    <text x="0" y="52" fill="#E8ECE4" font-size="12" font-family="Work Sans, sans-serif" text-anchor="middle">Hybrid inverter</text>
-  </g>
-
-  <!-- battery node -->
-  <g transform="translate(430,200)">
-    <rect x="-26" y="-18" width="52" height="36" rx="4" fill="none" stroke="#E8ECE4" stroke-width="1.4"/>
-    <rect x="26" y="-6" width="6" height="12" fill="#E8ECE4"/>
-    <text x="0" y="38" fill="#A9B6AC" font-size="12" font-family="Work Sans, sans-serif" text-anchor="middle">Battery</text>
-  </g>
-
-  <!-- home node -->
-  <g transform="translate(430,370)">
-    <path d="M-24 4L0 -18L24 4" fill="none" stroke="#E8ECE4" stroke-width="1.4" stroke-linejoin="round"/>
-    <path d="M-16 -2V22H16V-2" fill="none" stroke="#E8ECE4" stroke-width="1.4"/>
-    <text x="0" y="42" fill="#A9B6AC" font-size="12" font-family="Work Sans, sans-serif" text-anchor="middle">Home</text>
-  </g>
-
-  <!-- EV node -->
-  <g transform="translate(430,470)">
-    <rect x="-24" y="-18" width="48" height="36" rx="4" fill="none" stroke="#E8ECE4" stroke-width="1.4"/>
-    <path d="M-6 -9L-11 1H-3L-9 12L11 -2H2L7 -9Z" fill="none" stroke="#E0B45C" stroke-width="1.1" stroke-linejoin="round"/>
-    <text x="0" y="38" fill="#A9B6AC" font-size="12" font-family="Work Sans, sans-serif" text-anchor="middle">EV charger</text>
-  </g>
-</svg>
-</div>
+        <div class="hero-media-wrap">
+          <video autoplay muted loop playsinline poster="assets/images/hero_solar_villa.jpg">
+            <source src="assets/videos/solar_hero.webm" type="video/webm">
+            <img src="assets/images/hero_solar_villa.jpg" alt="Solvaris Energy Villa with Integrated Solar Roof, Battery Storage and EV Charger">
+          </video>
+          <div class="hero-live-badge">
+            <span class="pulse-dot"></span>
+            <span>Solvaris Intelligent Loop Active · 98.4% Efficiency</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -182,7 +128,7 @@
     </div>
 
     <div class="product-row">
-      <div class="product-visual"><svg viewBox="0 0 20 20" fill="none"><rect x="3" y="2.5" width="14" height="15" rx="1.3" stroke="currentColor" stroke-width="1.3"/><path d="M6 6.5H14M6 9.5H10.5" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/><path d="M8.5 12L6.8 14.6H8.6L7.6 17L10.5 13.6H8.9L9.9 12H8.5Z" fill="currentColor"/></svg></div>
+      <div class="product-visual"><img src="assets/images/product_hybrid_inverter.jpg" alt="Solvaris Hybrid Inverter" loading="lazy"></div>
       <div class="product-copy">
         <p class="kicker">01 · Hybrid Inverter</p>
         <h3>The decision-maker of the system</h3>
@@ -191,7 +137,7 @@
       </div>
     </div>
     <div class="product-row reverse">
-      <div class="product-visual"><svg viewBox="0 0 20 20" fill="none"><rect x="2.5" y="6" width="13" height="9" rx="1.2" stroke="currentColor" stroke-width="1.3"/><path d="M17 9V12" stroke="currentColor" stroke-width="1.3"/><path d="M9.6 8L7.6 10.9H9.5L8.3 13L10.8 9.9H9L9.9 8Z" fill="currentColor"/></svg></div>
+      <div class="product-visual"><img src="assets/images/product_battery_system.jpg" alt="Solvaris Stackable LFP Battery System" loading="lazy"></div>
       <div class="product-copy">
         <p class="kicker">02 · Battery</p>
         <h3>Storage that stacks as you grow</h3>
@@ -200,7 +146,7 @@
       </div>
     </div>
     <div class="product-row">
-      <div class="product-visual"><svg viewBox="0 0 20 20" fill="none"><rect x="3" y="3" width="14" height="14" rx="1.5" stroke="currentColor" stroke-width="1.3"/><path d="M8 6.5L6.5 10.5H8.8L7.6 14L12 9H9.6L11 6.5H8Z" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/></svg></div>
+      <div class="product-visual"><img src="assets/images/product_ev_charger.jpg" alt="Solvaris Smart Wallbox EV Charger" loading="lazy"></div>
       <div class="product-copy">
         <p class="kicker">03 · EV Charger</p>
         <h3>Charges on surplus, not schedule</h3>
@@ -209,7 +155,7 @@
       </div>
     </div>
     <div class="product-row reverse">
-      <div class="product-visual"><svg viewBox="0 0 20 20" fill="none"><rect x="4" y="4" width="12" height="12" rx="1.3" stroke="currentColor" stroke-width="1.3"/><path d="M7 4V2.3M10 4V2.3M13 4V2.3M7 17.7V16M10 17.7V16M13 17.7V16M4 7H2.3M4 10H2.3M4 13H2.3M16 7H17.7M16 10H17.7M16 13H17.7" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/><circle cx="10" cy="10" r="2" stroke="currentColor" stroke-width="1.1"/></svg></div>
+      <div class="product-visual"><img src="assets/images/product_microinverter.jpg" alt="Solvaris High-Efficiency Microinverter" loading="lazy"></div>
       <div class="product-copy">
         <p class="kicker">04 · Microinverter</p>
         <h3>Panel-level output on shaded or complex roofs</h3>
@@ -218,11 +164,11 @@
       </div>
     </div>
     <div class="product-row">
-      <div class="product-visual"><svg viewBox="0 0 20 20" fill="none"><rect x="2.5" y="5" width="15" height="10" rx="1.3" stroke="currentColor" stroke-width="1.3"/><path d="M5 10C5.8 10 5.8 7.5 6.6 7.5C7.4 7.5 7.4 12.5 8.2 12.5C9 12.5 9 10 9.8 10H15" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="product-visual"><img src="assets/images/product_commercial_inverter.jpg" alt="Solvaris Commercial & Industrial Energy Storage" loading="lazy"></div>
       <div class="product-copy">
-        <p class="kicker">05 · Inverter</p>
-        <h3>Solar-only conversion, sized for larger arrays</h3>
-        <p>String inverters for sites without storage yet — built on the same firmware platform, so a battery can be added later without a second install visit.</p>
+        <p class="kicker">05 · Inverter &amp; C&amp;I Storage</p>
+        <h3>Solar conversion &amp; storage, sized for commercial scale</h3>
+        <p>String inverters and modular outdoor battery containers for offices, factories, and utility sites — engineered on a unified firmware platform.</p>
         <a class="text-link" href="products/inverter.html">See specifications</a>
       </div>
     </div>
@@ -245,7 +191,7 @@
     </div>
     <div class="grid cols-3">
       <a class="segment-card" href="solutions/residential.html">
-        <div class="seg-art"><svg viewBox="0 0 20 20" fill="none"><path d="M3 10L10 3.5L17 10" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 8.5V17H15V8.5" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><rect x="8.3" y="12" width="3.4" height="5" stroke="currentColor" stroke-width="1.1"/></svg></div>
+        <div class="seg-art"><img src="assets/images/solution_residential_home.jpg" alt="Solvaris Residential Solar Installation" loading="lazy"></div>
         <div class="seg-body">
           <h3>Residential</h3>
           <p>A hybrid inverter, one to three battery modules and an EV charger, sized around how the household actually uses power.</p>
@@ -253,7 +199,7 @@
         </div>
       </a>
       <a class="segment-card" href="solutions/commercial.html">
-        <div class="seg-art"><svg viewBox="0 0 20 20" fill="none"><rect x="4" y="2.5" width="9" height="15" stroke="currentColor" stroke-width="1.3"/><rect x="13" y="7" width="3.3" height="10.5" stroke="currentColor" stroke-width="1.1"/><path d="M6.4 5.5H10.6M6.4 8.2H10.6M6.4 10.9H10.6M6.4 13.6H10.6" stroke="currentColor" stroke-width="1" stroke-linecap="round"/></svg></div>
+        <div class="seg-art"><img src="assets/images/solution_commercial_rooftop.jpg" alt="Solvaris Commercial & Industrial Solar Array" loading="lazy"></div>
         <div class="seg-body">
           <h3>Commercial</h3>
           <p>Three-phase inverters and stacked storage that shave peak demand charges on offices, warehouses and light industrial sites.</p>
@@ -261,7 +207,7 @@
         </div>
       </a>
       <a class="segment-card" href="solutions/hospitality.html">
-        <div class="seg-art"><svg viewBox="0 0 20 20" fill="none"><rect x="2.5" y="6" width="15" height="11" stroke="currentColor" stroke-width="1.3"/><path d="M2 6L10 2L18 6" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M5.3 9H8.3V17H5.3V9Z" stroke="currentColor" stroke-width="1"/><path d="M11.7 9.3H14.7M11.7 11.7H14.7" stroke="currentColor" stroke-width="1" stroke-linecap="round"/></svg></div>
+        <div class="seg-art"><img src="assets/images/solution_hospitality_resort.jpg" alt="Solvaris Eco-Resort Solar Power System" loading="lazy"></div>
         <div class="seg-body">
           <h3>Hospitality</h3>
           <p>Backup-first design for hotels and resorts, keeping HVAC, kitchens and guest rooms running through grid outages.</p>
@@ -288,9 +234,29 @@
         </div>
       </div>
       <div class="split-media">
-        <div class="map-frame">
-          <svg viewBox="0 0 20 20" fill="none"><path d="M3 10L10 3.5L17 10" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 8.5V17H15V8.5" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><rect x="8.3" y="12" width="3.4" height="5" stroke="currentColor" stroke-width="1.1"/></svg>
+        <div class="product-visual" style="aspect-ratio:16/10;">
+          <img src="assets/images/hero_solar_villa.jpg" alt="Solvaris Energy Clean Engineering" loading="lazy">
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section on-paper2">
+  <div class="container">
+    <div class="cloud-showcase">
+      <div class="cloud-copy">
+        <p class="eyebrow" style="color:var(--gold-light);">Intelligence &amp; Control</p>
+        <h2>Solvaris Cloud · Real-time energy ecosystem</h2>
+        <p>Monitor your entire energy cycle from anywhere in the world. Our intelligent algorithms predict solar generation, adapt to dynamic utility tariffs, and automatically balance battery storage and EV charging.</p>
+        <div class="cloud-metrics">
+          <div class="cloud-metric"><b>99.9%</b><span>Uptime reliability</span></div>
+          <div class="cloud-metric"><b>&lt; 10ms</b><span>UPS auto-switchover</span></div>
+          <div class="cloud-metric"><b>38%</b><span>Average bill savings</span></div>
+        </div>
+      </div>
+      <div class="cloud-media">
+        <img src="assets/images/product_hybrid_inverter.jpg" alt="Solvaris Cloud Telemetry and Control System" loading="lazy">
       </div>
     </div>
   </div>
