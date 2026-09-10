@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var header = document.querySelector('.site-header');
   if (header) {
     var onScroll = function () {
-      header.style.boxShadow = window.scrollY > 8 ? '0 1px 0 rgba(20,38,33,0.08)' : 'none';
+      header.style.boxShadow = window.scrollY > 8 ? '0 10px 30px -10px rgba(15, 23, 42, 0.08)' : 'none';
     };
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
