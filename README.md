@@ -4,7 +4,7 @@ Official website for **Solvaris Energy** — smart clean energy solutions includ
 
 ## 🌐 Live Demo
 The live website is hosted via GitHub Pages at:  
-👉 **[https://jayedurnirob7-Nianfer.github.io/solvaris-energy/](https://jayedurnirob7-Nianfer.github.io/solvaris-energy/)**
+👉 **[https://graphixnest-tech.github.io/Solvaris-Energy-Website/](https://graphixnest-tech.github.io/Solvaris-Energy-Website/)**
 
 ## 📂 Project Structure
 
@@ -46,8 +46,8 @@ solvaris-energy/
 No build steps or dependencies required. Simply clone the repository and open `index.html` in any modern web browser:
 
 ```bash
-git clone https://github.com/jayedurnirob7-Nianfer/solvaris-energy.git
-cd solvaris-energy
+git clone https://github.com/graphixnest-tech/Solvaris-Energy-Website.git
+cd Solvaris-Energy-Website
 # Open index.html in browser, or run a local server:
 # python -m http.server 8000
 # or npx serve
